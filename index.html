@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="headder"> </div>
+<div id="main">
+        <div id="calc">
+            <button onclick="cmath('delete')" id="button" class="item bl1">Del</button>
+            <button onclick="cmath('/')" id="button" class="item bl1">/</button>
+            <button onclick="cmath('*')" id="button" class="item bl1">*</button>
+            <button onclick="cmath('-')" id="button" class="item bl1">-</button>
+            <button onclick="cmath('7')" id="button" class="item bl1">7</button>
+            <button onclick="cmath('8')" id="button" class="item bl1">8</button>
+            <button onclick="cmath('9')" id="button" class="item bl1">9</button>
+            <button onclick="cmath('+')" id="button" class="item bl2-pl">+</button>
+            <button onclick="cmath('4')" id="button" class="item bl1">4</button>
+            <button onclick="cmath('5')" id="button" class="item bl1">5</button>
+            <button onclick="cmath('6')" id="button" class="item bl1">6</button>
+            <button onclick="cmath('1')" id="button" class="item bl1">1</button>
+            <button onclick="cmath('2')" id="button" class="item bl1">2</button>
+            <button onclick="cmath('3')" id="button" class="item bl1">3</button>
+            <button onclick="cmath('accept')" id="button" class="item bl2-en">Enter</button>
+            <button onclick="cmath('0')" id="button" class="item bl2-h">0</button>
+            <button onclick="cmath('.')" id="button" class="item bl1">,</button>
+        </div>
+</div>
+<div id="results">Result history: 
+    
+</div>
+<button onclick="resultReset()" id="resetHistory">Clear result history</button>
+
+
+
+    
+</body>
+</html>
